@@ -1,0 +1,81 @@
+.section_two {
+    /* border: 3px red solid; */
+    width: 100%; 
+    background-color: $LightGrayishBlue;
+    padding-bottom: 30px;
+    .img_segunda {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .informacion {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        h1 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+        p {
+            margin-top: 7px;
+            font-size: 0.9rem;
+        }
+        a {
+            position: relative;
+            display: block;
+            padding-top: 15px;
+            color:$ModeratCyan;
+            font-size: 0.8rem;
+            span {
+                margin-left: 5px;
+                position: absolute;
+                width: 25px;
+                height: 30px;
+                background-image: url("/fylo-landing-page-with-two-column-layout-master/images/icon-arrow.svg");
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .experiencia {
+        background-color: white;
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow:0px 1px 29px -1px rgba(0,0,0,0.51);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        p {
+            font-size: 0.8rem;
+        }
+        .comillas {
+            margin-bottom: 10px;
+            width: 20px;
+            min-height: 10px;
+            height: 20px;
+            background-image: url("/fylo-landing-page-with-two-column-layout-master/images/icon-quotes.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .autor {
+            width: 95%;
+            margin-top: 10px;
+            display: flex;
+            height: auto;
+            align-items: center;
+            .avatar {
+               width: 30%;
+               img {
+                   width: 100%;
+                   border-radius: 30px;
+               }
+            }
+            .avatar_info {
+                width: 70%;
+                padding-left: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%
+}
+
+//Colors
+$BackgroundVeryDarkBlue: hsl(243, 87%, 12%);
+$DesaturatedBlue: hsl(238, 22%, 44%);
+
+
+$BrightBlue: hsl(224, 93%, 58%);
+$ModeratCyan: hsl(170, 45%, 43%);
+
+$LightGrayishBlue: hsl(240, 75%, 98%);
+$LightGray: hsl(0, 0%, 75%);
+
+@mixin formulario {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+}
+@mixin input {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: black solid 2px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+        
+@mixin button {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    background-color:$BrightBlue ;
+    border: $BrightBlue solid 1px;
+    color: $LightGrayishBlue;   
+}
+

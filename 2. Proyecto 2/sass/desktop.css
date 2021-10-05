@@ -1,0 +1,38 @@
+header {
+    margin: 30px;
+}
+header nav ul {
+    font-size: 2rem;
+}
+.section_one {
+    display: flex;
+    align-items: center;
+}
+.section_one .img_fondo {
+    order: 2;
+}
+.section_one .contenido p {
+    font-size: 2rem;
+}
+.section_one .contenido h1 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+}
+.section_one .contenido form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.section_one .contenido form label {
+    width: 72%;
+}
+.section_one .contenido form label input {
+    height: 60px;
+}
+.section_one .contenido form button {
+    width: 25%;
+    height: 60px;
+}
+
+/* Continuar en la seccion 2 */

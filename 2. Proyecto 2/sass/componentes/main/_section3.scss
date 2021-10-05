@@ -1,0 +1,26 @@
+.section_three {
+    background-color: $DesaturatedBlue;
+    padding-bottom: 50px;
+    .more_information {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        h3 {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+    }
+    .Formulario {
+        @include formulario;
+        width: 70%;
+        label input{
+            @include input;
+        }
+        button {
+            @include button;
+        }
+    }
+}
