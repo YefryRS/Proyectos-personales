@@ -1,46 +1,18 @@
-
+html {
+    width: 100%;
+    background-color: hsl(240, 75%, 98%);
+}
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 29px -1px rgba(0,0,0,0.51);
+}
 header {
-    margin: 30px;
+    margin-top: 0;
+    padding-top: 20px;
 }
-header nav ul {
-    font-size: 2rem;
+.section_three .Formulario button {
+    width: 30%;
 }
-.section_one {
-    display: flex;
-    align-items: center;
-}
-.section_one .img_fondo {
-    order: 2;
-}
-/* .section_one .contenido p {
-    font-size: 2rem;
-}
-.section_one .contenido h1 {
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-} */
-.section_one .contenido form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-}
-.section_one .contenido form label {
-    width: 72%;
-}
-.section_one .contenido form label input {
-    height: 60px;
-}
-.section_one .contenido form button {
-    width: 25%;
-    height: 60px;
-}
-.section_two {
-    display: flex;
-    align-items: center;
-}
-.section_two .img_segunda {
-    order: 2;
-}
-
-/* Continuar en la seccion 2 */
